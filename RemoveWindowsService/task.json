@@ -32,7 +32,7 @@
 		"helpMarkDown": "Name of the Windows Service to remove."
 	}],
 	"execution": {
-		"PowerShell": {
+		"PowerShell3": {
 			"target": "$(currentDirectory)\\removeservice.ps1",
 			"argumentFormat": "",
 			"workingDirectory": "$(currentDirectory)"

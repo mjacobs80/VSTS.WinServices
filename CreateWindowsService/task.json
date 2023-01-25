@@ -94,7 +94,7 @@
 		"helpMarkDown": "The password of the user running the service."
 	}],
 	"execution": {
-		"PowerShell": {
+		"PowerShell3": {
 			"target": "$(currentDirectory)\\createservice.ps1",
 			"argumentFormat": "",
 			"workingDirectory": "$(currentDirectory)"

@@ -24,7 +24,7 @@
 		"helpMarkDown": "Name of the Windows Service (this is not always the display name)."
 	}],
 	"execution": {
-		"PowerShell": {
+		"PowerShell3": {
 			"target": "$(currentDirectory)\\startservice.ps1",
 			"argumentFormat": "",
 			"workingDirectory": "$(currentDirectory)"
